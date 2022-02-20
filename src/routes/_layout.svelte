@@ -24,8 +24,6 @@
 
 <Nav {segment}/>
 
-{#if !$preloading}
-	<main transition:fade>
-		<slot></slot>
-	</main>
-{/if}
+<main>
+	<slot></slot>
+</main>
